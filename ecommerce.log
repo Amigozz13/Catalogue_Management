@@ -1,0 +1,550 @@
+2025-07-07 22:58:37 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 22:58:37 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 22:58:37 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 22:58:38 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 22:58:38 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 22:58:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-07 22:58:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:44] "GET /login HTTP/1.1" 200 -
+2025-07-07 22:58:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:44] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 22:58:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:44] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 22:58:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 22:58:46 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:46] "POST /login HTTP/1.1" 200 -
+2025-07-07 22:58:48 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:48] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 22:58:48 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:48] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 22:58:48 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:48] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 22:58:48 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:58:48] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 22:59:36 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:59:36] "OPTIONS /catalogues HTTP/1.1" 200 -
+2025-07-07 22:59:36 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:59:36] "[35m[1mPOST /catalogues HTTP/1.1[0m" 201 -
+2025-07-07 22:59:36 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:59:36] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 22:59:45 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:59:45] "GET /login HTTP/1.1" 200 -
+2025-07-07 22:59:45 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:59:45] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 22:59:45 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 22:59:45] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:36:23 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 23:36:23 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 23:36:23 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:36:23 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:36:23 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 23:36:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:28] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-07 23:36:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:28] "[36mGET /login HTTP/1.1[0m" 304 -
+2025-07-07 23:36:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:28] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:36:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:28] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:36:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:36:30 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:30] "POST /login HTTP/1.1" 200 -
+2025-07-07 23:36:31 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:31] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:36:31 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:31] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:36:31 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:31] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:36:32 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:36:32] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:37:03 - werkzeug - INFO -  * Detected change in 'c:\\Users\\ameen\\OneDrive\\Dokumen\\BTECH\\Ameen_assignment_3\\ecommerce\\E-commerce\\tests\\test_service.py', reloading
+2025-07-07 23:37:03 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:37:03 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:37:03 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 23:37:05 - werkzeug - INFO -  * Detected change in 'c:\\Users\\ameen\\OneDrive\\Dokumen\\BTECH\\Ameen_assignment_3\\ecommerce\\E-commerce\\tests\\test_service.py', reloading
+2025-07-07 23:37:05 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:37:05 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:37:05 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 23:37:11 - werkzeug - INFO -  * Detected change in 'c:\\Users\\ameen\\OneDrive\\Dokumen\\BTECH\\Ameen_assignment_3\\ecommerce\\E-commerce\\tests\\test_service.py', reloading
+2025-07-07 23:37:11 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:37:11 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:37:11 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 23:37:28 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 23:37:28 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 23:37:28 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:37:28 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:37:28 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 23:37:32 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-07 23:37:32 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:32] "GET /login HTTP/1.1" 200 -
+2025-07-07 23:37:32 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:32] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:37:32 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:32] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:37:33 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:33] "POST /login HTTP/1.1" 200 -
+2025-07-07 23:37:35 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:35] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:37:35 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:35] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:37:35 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:35] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:37:35 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:35] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:37:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:40] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:37:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:40] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:37:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:40] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:37:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:40] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:37:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:41] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:37:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:41] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:37:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:41] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:37:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:37:41] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:42:48 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:48] "OPTIONS /catalogues/32 HTTP/1.1" 200 -
+2025-07-07 23:42:48 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:48] "DELETE /catalogues/32 HTTP/1.1" 200 -
+2025-07-07 23:42:51 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:51] "DELETE /catalogues/32 HTTP/1.1" 200 -
+2025-07-07 23:42:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:53] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:42:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:53] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:42:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:53] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:42:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:53] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:42:58 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:58] "OPTIONS /catalogues/31 HTTP/1.1" 200 -
+2025-07-07 23:42:58 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:42:58] "DELETE /catalogues/31 HTTP/1.1" 200 -
+2025-07-07 23:43:01 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:01] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:43:01 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:01] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:43:01 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:01] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:43:01 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:01] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:43:04 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:04] "OPTIONS /catalogues/30 HTTP/1.1" 200 -
+2025-07-07 23:43:04 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:04] "DELETE /catalogues/30 HTTP/1.1" 200 -
+2025-07-07 23:43:05 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:05] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:43:05 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:05] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:43:05 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:05] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:43:05 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:05] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:43:09 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:09] "OPTIONS /catalogues/29 HTTP/1.1" 200 -
+2025-07-07 23:43:09 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:09] "DELETE /catalogues/29 HTTP/1.1" 200 -
+2025-07-07 23:43:10 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:10] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:43:10 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:10] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:43:10 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:10] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:43:10 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:10] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:43:14 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:14] "OPTIONS /catalogues/28 HTTP/1.1" 200 -
+2025-07-07 23:43:14 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:14] "DELETE /catalogues/28 HTTP/1.1" 200 -
+2025-07-07 23:43:16 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:16] "DELETE /catalogues/28 HTTP/1.1" 200 -
+2025-07-07 23:43:19 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:19] "OPTIONS /catalogues/28 HTTP/1.1" 200 -
+2025-07-07 23:43:20 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:20] "DELETE /catalogues/28 HTTP/1.1" 200 -
+2025-07-07 23:43:21 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:21] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:43:21 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:21] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:43:21 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:21] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:43:21 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:21] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:43:27 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:27] "OPTIONS /catalogues/27 HTTP/1.1" 200 -
+2025-07-07 23:43:27 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:27] "DELETE /catalogues/27 HTTP/1.1" 200 -
+2025-07-07 23:43:30 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:30] "OPTIONS /catalogues/26 HTTP/1.1" 200 -
+2025-07-07 23:43:30 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:30] "DELETE /catalogues/26 HTTP/1.1" 200 -
+2025-07-07 23:43:33 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:33] "OPTIONS /catalogues/25 HTTP/1.1" 200 -
+2025-07-07 23:43:33 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:33] "DELETE /catalogues/25 HTTP/1.1" 200 -
+2025-07-07 23:43:35 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:35] "OPTIONS /catalogues/24 HTTP/1.1" 200 -
+2025-07-07 23:43:36 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:36] "DELETE /catalogues/24 HTTP/1.1" 200 -
+2025-07-07 23:43:38 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:38] "OPTIONS /catalogues/23 HTTP/1.1" 200 -
+2025-07-07 23:43:39 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:39] "DELETE /catalogues/23 HTTP/1.1" 200 -
+2025-07-07 23:43:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:40] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:43:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:40] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:43:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:40] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:43:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:40] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:43:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:44] "OPTIONS /catalogues/22 HTTP/1.1" 200 -
+2025-07-07 23:43:45 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:45] "DELETE /catalogues/22 HTTP/1.1" 200 -
+2025-07-07 23:43:48 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:48] "OPTIONS /catalogues/21 HTTP/1.1" 200 -
+2025-07-07 23:43:49 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:49] "DELETE /catalogues/21 HTTP/1.1" 200 -
+2025-07-07 23:43:51 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:51] "OPTIONS /catalogues/20 HTTP/1.1" 200 -
+2025-07-07 23:43:51 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:51] "DELETE /catalogues/20 HTTP/1.1" 200 -
+2025-07-07 23:43:54 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:54] "OPTIONS /catalogues/19 HTTP/1.1" 200 -
+2025-07-07 23:43:54 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:54] "DELETE /catalogues/19 HTTP/1.1" 200 -
+2025-07-07 23:43:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:56] "OPTIONS /catalogues/18 HTTP/1.1" 200 -
+2025-07-07 23:43:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:56] "DELETE /catalogues/18 HTTP/1.1" 200 -
+2025-07-07 23:43:58 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:58] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:43:58 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:58] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:43:58 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:58] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:43:58 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:43:58] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:44:02 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:02] "OPTIONS /catalogues/17 HTTP/1.1" 200 -
+2025-07-07 23:44:02 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:02] "DELETE /catalogues/17 HTTP/1.1" 200 -
+2025-07-07 23:44:04 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:04] "OPTIONS /catalogues/16 HTTP/1.1" 200 -
+2025-07-07 23:44:05 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:05] "DELETE /catalogues/16 HTTP/1.1" 200 -
+2025-07-07 23:44:06 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:06] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:44:06 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:06] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:44:06 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:06] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:44:06 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:06] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:44:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:25] "OPTIONS /catalogues HTTP/1.1" 200 -
+2025-07-07 23:44:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:25] "[35m[1mPOST /catalogues HTTP/1.1[0m" 201 -
+2025-07-07 23:44:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:25] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:44:30 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:30] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:44:30 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:30] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:44:30 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:30] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:44:30 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:30] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:44:52 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:52] "OPTIONS /catalogues HTTP/1.1" 200 -
+2025-07-07 23:44:52 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:52] "[35m[1mPOST /catalogues HTTP/1.1[0m" 201 -
+2025-07-07 23:44:52 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:44:52] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:00 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:00] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:00 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:00] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:00 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:00] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:00 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:00] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:18 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:18] "OPTIONS /catalogues HTTP/1.1" 200 -
+2025-07-07 23:45:18 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:18] "[35m[1mPOST /catalogues HTTP/1.1[0m" 201 -
+2025-07-07 23:45:18 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:18] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:21 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:21] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:21 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:21] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:21 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:21] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:21 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:21] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:22] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:23 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:23] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:24 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:24] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:25] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:45:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:28] "GET /login HTTP/1.1" 200 -
+2025-07-07 23:45:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:28] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:28] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:29 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:29] "POST /login HTTP/1.1" 200 -
+2025-07-07 23:45:31 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:31] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:45:31 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:31] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:45:31 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:31] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:45:31 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:45:31] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:51:34 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 23:51:34 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 23:51:34 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:51:35 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:51:35 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 23:51:38 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:38] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-07 23:51:38 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:38] "GET /login HTTP/1.1" 200 -
+2025-07-07 23:51:38 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:38] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:51:38 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:38] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:51:38 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:51:40 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:40] "POST /login HTTP/1.1" 200 -
+2025-07-07 23:51:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:41] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:51:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:41] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:51:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:41] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:51:42 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:42] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:51:49 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:49] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:51:49 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:49] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:51:49 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:49] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:51:49 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:51:49 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:51:49] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:52:49 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:49] "OPTIONS /catalogues/35 HTTP/1.1" 200 -
+2025-07-07 23:52:49 - __main__ - ERROR - Error updating catalogue 35: expected string or bytes-like object, got 'tuple'
+2025-07-07 23:52:49 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:49] "[31m[1mPUT /catalogues/35 HTTP/1.1[0m" 400 -
+2025-07-07 23:52:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:53] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:52:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:53] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:52:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:53] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:52:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:52:53 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:53] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:52:54 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:54] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:52:54 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:54] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:52:54 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:54] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:52:54 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:52:54 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:54] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:52:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:55] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:52:56 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:56] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:53:16 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-07 23:53:16 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:16] "GET /login HTTP/1.1" 200 -
+2025-07-07 23:53:16 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:16] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:53:16 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:16] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:53:18 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:18] "POST /login HTTP/1.1" 200 -
+2025-07-07 23:53:19 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:19] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:53:19 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:19] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:53:19 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:19] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:53:20 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:20] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:53:34 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 23:53:34 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 23:53:34 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:53:35 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:53:35 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 23:53:37 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:37] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-07 23:53:37 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:37] "GET /login HTTP/1.1" 200 -
+2025-07-07 23:53:37 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:37] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:53:37 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:37] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:53:39 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:39] "POST /login HTTP/1.1" 200 -
+2025-07-07 23:53:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:41] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:53:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:41] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:53:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:41] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:53:41 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:53:41] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:54:01 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:01] "OPTIONS /catalogues/35 HTTP/1.1" 200 -
+2025-07-07 23:54:01 - __main__ - ERROR - Error updating catalogue 35: expected string or bytes-like object, got 'tuple'
+2025-07-07 23:54:01 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:01] "[31m[1mPUT /catalogues/35 HTTP/1.1[0m" 400 -
+2025-07-07 23:54:13 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:13] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:54:13 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:13] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:54:13 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:13] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:54:13 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:13] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:54:18 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:18] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:54:19 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:19] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-07 23:54:19 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:19] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-07 23:54:19 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:54:19 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:19] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:54:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:22] "GET /login HTTP/1.1" 200 -
+2025-07-07 23:54:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:22] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:54:22 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:54:22] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:58:21 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 23:58:21 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 23:58:21 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:58:22 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:58:22 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-07 23:58:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-07 23:58:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:25] "[36mGET /login HTTP/1.1[0m" 304 -
+2025-07-07 23:58:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:25] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-07 23:58:25 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:25] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:58:27 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:27] "POST /login HTTP/1.1" 200 -
+2025-07-07 23:58:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:28] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-07 23:58:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:28] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-07 23:58:28 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:28] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-07 23:58:29 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:29] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:58:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:44] "OPTIONS /catalogues/35 HTTP/1.1" 200 -
+2025-07-07 23:58:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:44] "PUT /catalogues/35 HTTP/1.1" 200 -
+2025-07-07 23:58:44 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:44] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:58:52 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:52] "GET /catalogues?sort=asc HTTP/1.1" 200 -
+2025-07-07 23:58:55 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:58:55] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-07 23:59:17 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:59:17] "GET /login HTTP/1.1" 200 -
+2025-07-07 23:59:17 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:59:17] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-07 23:59:17 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:59:17] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-08 00:02:24 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 00:02:24 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 00:02:24 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 00:02:24 - werkzeug - WARNING -  * Debugger is active!
+2025-07-08 00:02:24 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-08 00:02:28 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:28] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-08 00:02:28 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:28] "[36mGET /login HTTP/1.1[0m" 304 -
+2025-07-08 00:02:28 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:28] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-08 00:02:28 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:28] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-08 00:02:31 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:31] "POST /login HTTP/1.1" 200 -
+2025-07-08 00:02:32 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:32] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:02:32 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:32] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-08 00:02:32 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:32] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-08 00:02:33 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:33] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:02:53 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:53] "OPTIONS /catalogues/34 HTTP/1.1" 200 -
+2025-07-08 00:02:53 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:53] "PUT /catalogues/34 HTTP/1.1" 200 -
+2025-07-08 00:02:53 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:02:53] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:03:23 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:23] "OPTIONS /catalogues HTTP/1.1" 200 -
+2025-07-08 00:03:23 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:23] "[35m[1mPOST /catalogues HTTP/1.1[0m" 201 -
+2025-07-08 00:03:24 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:24] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:03:27 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:27] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:03:27 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:27] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-08 00:03:27 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:27] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-08 00:03:27 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:27] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:03:33 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:33] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:03:33 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:33] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-08 00:03:33 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:33] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-08 00:03:34 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-08 00:03:34 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:34] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-08 00:03:35 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "GET /static/catalogue_manager.css HTTP/1.1" 200 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "GET /static/catalogue_manager.js HTTP/1.1" 200 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-08 00:03:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:03:36] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:04:28 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 00:04:28 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 00:04:28 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 00:04:28 - werkzeug - WARNING -  * Debugger is active!
+2025-07-08 00:04:28 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-08 00:04:41 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:41] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-08 00:04:41 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:41] "GET /login HTTP/1.1" 200 -
+2025-07-08 00:04:41 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:41] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-08 00:04:41 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:41] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-08 00:04:43 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:43] "POST /login HTTP/1.1" 200 -
+2025-07-08 00:04:44 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:44] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:04:44 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:44] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-08 00:04:44 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:44] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-08 00:04:45 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:04:45] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:12:45 - werkzeug - INFO -  * Detected change in 'c:\\Users\\ameen\\OneDrive\\Dokumen\\BTECH\\Ameen_assignment_3\\ecommerce\\E-commerce\\util\\db_connector.py', reloading
+2025-07-08 00:12:45 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 00:26:32 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 00:26:32 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 00:26:32 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 00:26:33 - werkzeug - WARNING -  * Debugger is active!
+2025-07-08 00:26:33 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-08 00:26:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-08 00:26:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:36] "GET /login HTTP/1.1" 200 -
+2025-07-08 00:26:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:36] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-08 00:26:36 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:36] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-08 00:26:38 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:38] "POST /login HTTP/1.1" 200 -
+2025-07-08 00:26:39 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:39] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:26:40 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:40] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-08 00:26:40 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:40] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-08 00:26:40 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:40] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:26:49 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:49] "OPTIONS /catalogues/41 HTTP/1.1" 200 -
+2025-07-08 00:26:49 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:49] "DELETE /catalogues/41 HTTP/1.1" 200 -
+2025-07-08 00:26:52 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:52] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:26:52 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:52] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-08 00:26:52 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:52] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-08 00:26:52 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:52] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:26:59 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:59] "GET /login HTTP/1.1" 200 -
+2025-07-08 00:26:59 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:59] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-08 00:26:59 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:26:59] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-08 00:36:23 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 00:36:23 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 00:36:23 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 00:36:23 - werkzeug - WARNING -  * Debugger is active!
+2025-07-08 00:36:23 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-08 00:36:28 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:28] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-08 00:36:28 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:28] "[36mGET /login HTTP/1.1[0m" 304 -
+2025-07-08 00:36:28 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:28] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-08 00:36:28 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:28] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-08 00:36:29 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:29] "POST /login HTTP/1.1" 200 -
+2025-07-08 00:36:31 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:31] "GET /catalogue_manager HTTP/1.1" 200 -
+2025-07-08 00:36:31 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:31] "[36mGET /static/catalogue_manager.css HTTP/1.1[0m" 304 -
+2025-07-08 00:36:31 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:31] "[36mGET /static/catalogue_manager.js HTTP/1.1[0m" 304 -
+2025-07-08 00:36:31 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:31] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:36:43 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:43] "GET /catalogues?sort=asc HTTP/1.1" 200 -
+2025-07-08 00:36:45 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:45] "GET /catalogues?sort=desc HTTP/1.1" 200 -
+2025-07-08 00:36:48 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:48] "GET /login HTTP/1.1" 200 -
+2025-07-08 00:36:48 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:48] "[36mGET /login/login.js HTTP/1.1[0m" 304 -
+2025-07-08 00:36:48 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:48] "[36mGET /login/login.css HTTP/1.1[0m" 304 -
+2025-07-08 00:37:57 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:37:57] "[32mGET /docs HTTP/1.1[0m" 308 -
+2025-07-08 00:37:57 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:37:57] "GET /docs/ HTTP/1.1" 200 -
+2025-07-08 00:37:57 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:37:57] "GET /docs/index.css HTTP/1.1" 200 -
+2025-07-08 00:37:57 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:37:57] "GET /docs/swagger-ui.css HTTP/1.1" 200 -
+2025-07-08 00:37:57 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:37:57] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-07-08 00:37:57 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:37:57] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-07-08 00:37:58 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:37:58] "[33mGET /static/swagger.yaml HTTP/1.1[0m" 404 -
+2025-07-08 00:37:58 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:37:58] "GET /docs/favicon-32x32.png HTTP/1.1" 200 -
+2025-07-08 00:38:13 - werkzeug - INFO -  * Detected change in 'c:\\Users\\ameen\\OneDrive\\Dokumen\\BTECH\\Ameen_assignment_3\\ecommerce\\E-commerce\\api.py', reloading
+2025-07-08 00:38:13 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 00:38:13 - werkzeug - WARNING -  * Debugger is active!
+2025-07-08 00:38:13 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-08 00:38:20 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:38:20] "GET /docs/ HTTP/1.1" 200 -
+2025-07-08 00:38:20 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:38:20] "[36mGET /docs/index.css HTTP/1.1[0m" 304 -
+2025-07-08 00:38:20 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:38:20] "[36mGET /docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-08 00:38:21 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:38:21] "[36mGET /docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-08 00:38:21 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:38:21] "[36mGET /docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-08 00:38:21 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:38:21] "[33mGET /swagger/swagger.yaml HTTP/1.1[0m" 404 -
+2025-07-08 00:39:38 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 00:39:38 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 00:39:38 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 00:39:39 - werkzeug - WARNING -  * Debugger is active!
+2025-07-08 00:39:39 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-08 00:39:48 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:39:48] "GET /docs/ HTTP/1.1" 200 -
+2025-07-08 00:39:48 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:39:48] "[36mGET /docs/index.css HTTP/1.1[0m" 304 -
+2025-07-08 00:39:49 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:39:49] "[36mGET /docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-08 00:39:49 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:39:49] "[36mGET /docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-08 00:39:49 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:39:49] "[36mGET /docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-08 00:39:49 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:39:49] "[33mGET /swagger/swagger.yaml HTTP/1.1[0m" 404 -
+2025-07-08 00:40:48 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:40:48] "[33mGET /static/swagger.yaml HTTP/1.1[0m" 404 -
+2025-07-08 00:40:48 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:40:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-08 00:41:15 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:41:15] "GET /docs/ HTTP/1.1" 200 -
+2025-07-08 00:41:15 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:41:15] "[36mGET /docs/index.css HTTP/1.1[0m" 304 -
+2025-07-08 00:41:16 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:41:16] "[36mGET /docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-08 00:41:16 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:41:16] "[36mGET /docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-08 00:41:16 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:41:16] "[36mGET /docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-08 00:41:16 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:41:16] "[33mGET /swagger/swagger.yaml HTTP/1.1[0m" 404 -
+2025-07-08 00:41:33 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:41:33] "[33mGET /swagger/swagger.yaml HTTP/1.1[0m" 404 -
+2025-07-08 00:43:32 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-08 00:43:32 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 00:43:32 - werkzeug - INFO -  * Restarting with stat
+2025-07-08 00:43:33 - werkzeug - WARNING -  * Debugger is active!
+2025-07-08 00:43:33 - werkzeug - INFO -  * Debugger PIN: 138-412-542
+2025-07-08 00:43:49 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:43:49] "GET /static/swagger.yaml HTTP/1.1" 200 -
+2025-07-08 00:44:11 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:44:11] "GET /docs/ HTTP/1.1" 200 -
+2025-07-08 00:44:11 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:44:11] "[36mGET /docs/index.css HTTP/1.1[0m" 304 -
+2025-07-08 00:44:12 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:44:12] "[36mGET /docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-08 00:44:12 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:44:12] "[36mGET /docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-08 00:44:12 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:44:12] "[36mGET /docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-08 00:44:12 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:44:12] "[33mGET /swagger/swagger.yaml HTTP/1.1[0m" 404 -
+2025-07-08 00:44:24 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:44:24] "[36mGET /static/swagger.yaml HTTP/1.1[0m" 304 -
+2025-07-08 00:44:40 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:44:40] "GET /catalogues HTTP/1.1" 200 -
