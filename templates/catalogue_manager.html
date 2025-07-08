@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogue Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='catalogue_manager.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2 style="text-align:center; color:#232526; letter-spacing:1px; margin-bottom:28px;">Catalogue Management System</h2>
+    <div class="menu" id="menu">
+        <button onclick="showForm('create')">Create Catalogue</button>
+        <input type="text" id="search-bar" class="search-bar" placeholder="Search by ID or Name..." oninput="onSearchInput()">
+    </div>
+    <div id="form-section"></div>
+    <div id="output"></div>
+    <div id="all-catalogues-section"></div> 
+        <!-- Table header (always visible) -->
+       
+
+        <!-- Scrollable/paginated table body (no header) -->
+        <div class="catalogue-table-scroll">
+            <table class="fixed-header-table">
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+</div>
+<button id="exit-btn" onclick="exitSystem()">Log Out</button>
+<script src="{{ url_for('static', filename='catalogue_manager.js') }}"></script>
+</body>
+</html>

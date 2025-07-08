@@ -1,0 +1,99 @@
+openapi: 3.0.0
+info:
+  title: E-Commerce Catalogue API
+  version: 1.0.0
+  description: API documentation for the E-Commerce Catalogue Management System
+
+servers:
+  - url: http://localhost:5000
+
+paths:
+  /catalogues:
+    get:
+      summary: Get all catalogues
+      responses:
+        '200':
+          description: A list of catalogues
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Catalogue'
+    post:
+      summary: Create a new catalogue
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Catalogue'
+      responses:
+        '201':
+          description: Catalogue created
+
+  /catalogues/{cat_id}:
+    get:
+      summary: Get a catalogue by ID
+      parameters:
+        - in: path
+          name: cat_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Catalogue found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Catalogue'
+        '404':
+          description: Not found
+    put:
+      summary: Update a catalogue by ID
+      parameters:
+        - in: path
+          name: cat_id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Catalogue'
+      responses:
+        '200':
+          description: Catalogue updated
+    delete:
+      summary: Delete a catalogue by ID
+      parameters:
+        - in: path
+          name: cat_id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Catalogue deleted
+
+components:
+  schemas:
+    Catalogue:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        effective_from:
+          type: string
+          format: date-time
+        effective_to:
+          type: string
+          format: date-time
+        status:
+          type: string
+          enum: [Active, Inactive]

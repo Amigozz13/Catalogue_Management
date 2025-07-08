@@ -1,0 +1,2 @@
+2025-07-07 15:22:26 - api - ERROR - Error creating catalogue: 1292 (22007): Incorrect datetime value: '2025-07-01T00:00:00Z' for column 'Effective_From' at row 1
+2025-07-07 22:46:45 - api - ERROR - Error creating catalogue: CatalogueService.create_catalogue() missing 1 required positional argument: 'catalogue'
